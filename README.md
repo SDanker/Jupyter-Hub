@@ -4,36 +4,36 @@ Consists with Python and R
 
 Python has the libraries pre-installed.
   
-  geopandas
+  -geopandas
   
-  numpy
+  -numpy
   
-  seaborn
+  -seaborn
   
-  panda
+  -panda
   
-  tensorflow
+  -tensorflow
   
-  scipie
+  -scipie
   
-  matplotlib
+  -matplotlib
   
-  keras
+  -keras
   
-  scikit-learn
+  -scikit-learn
   
-  scrapy3
+  -scrapy3
   
-  opencv-python
+  -opencv-python
   
-  openpyxl
+  -openpyxl
   
-  Theano
+  -Theano
   
-  beautifulsoup4
+  -beautifulsoup4
   
-  Pee Wee
+  -Pee Wee
   
-  Pillow
+  -Pillow
 
 The root user is active and you have to create the key in sign up after login again to be able to access with the key created within the jupyterhub you can manage new users and give them access
