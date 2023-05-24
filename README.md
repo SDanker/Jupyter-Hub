@@ -6,7 +6,7 @@ Python has the libraries pre-installed.
   
   -geopandas
   
-  -numpy
+  -numpy/
   
   -seaborn
   
