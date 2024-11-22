@@ -5,8 +5,8 @@ FROM jupyterhub/jupyterhub:latest
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y nodejs npm git nano r-base libzmq3-dev libcurl4-openssl-dev libssl-dev jupyter-core jupyter-client && \
-    python3 -m pip install notebook jupyterlab && \
     git clone https://github.com/jupyterhub/configurable-http-proxy /configurable-http-proxy && \
+    python3 -m pip install notebook jupyterlab && \
     pip install --upgrade pip && \
     pip install jupyterhub-nativeauthenticator && \
     R -e "install.packages(c('repr', 'IRdisplay', 'IRkernel'), type = 'source')" && \
