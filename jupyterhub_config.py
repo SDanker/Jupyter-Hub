@@ -5,7 +5,7 @@ c.JupyterHub.template_paths = [f"{os.path.dirname(nativeauthenticator.__file__)}
 
 c.JupyterHub.authenticator_class = 'nativeauthenticator.NativeAuthenticator'
 
-c.Authenticator.admin_users = {'pipa'}
+c.Authenticator.admin_users = {'admin'}
 
 # The pre_spawn_hook function is used to create a new user on the system if it does not already exist.
 def pre_spawn_hook(spawner):
