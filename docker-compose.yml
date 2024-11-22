@@ -6,3 +6,6 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
+    volumes:
+      - ./jupyterhub_config.py:/srv/jupyterhub/jupyterhub_config.py
+      - ./Dockerfile:/srv/jupyterhub/Dockerfile

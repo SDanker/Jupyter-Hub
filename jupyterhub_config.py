@@ -7,6 +7,7 @@ c.JupyterHub.authenticator_class = 'nativeauthenticator.NativeAuthenticator'
 
 c.Authenticator.admin_users = {'pipa'}
 
+# The pre_spawn_hook function is used to create a new user on the system if it does not already exist.
 def pre_spawn_hook(spawner):
 
     username = spawner.user.name
@@ -21,4 +22,5 @@ def pre_spawn_hook(spawner):
 
 c.Spawner.pre_spawn_hook = pre_spawn_hook
 
+# The default_url setting specifies the URL that users will be redirected to after logging in.
 c.Spawner.default_url = '/lab'
