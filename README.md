@@ -64,3 +64,14 @@ http://localhost:8000
 ```
 
 You should see the JupyterHub login page. Use the credentials you have set up to log in and start using JupyterHub.
+
+## Adding Additional Languages
+
+This image provides kernels for Python, R, and Julia. JupyterHub can run many other languages by installing the appropriate kernels. Common examples include:
+
+- **C/C++**: install the `xeus-cling` kernel.
+- **SQL**: install a SQL kernel such as `ipython-sql`.
+- **C#**: install the `.NET Interactive` kernel.
+
+Add the installation steps to the `Dockerfile` and rebuild the image with `docker-compose build` to enable these languages.
+
