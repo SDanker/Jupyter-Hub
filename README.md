@@ -1,44 +1,29 @@
 # Jupyter-Hub
-Docker with Jupyterhub to have multiple users.
-Consists with Python, R and Julia
+Docker with JupyterHub to allow multiple users.
+Provides kernels for Python, R and Julia.
 
-Python has the libraries pre-installed.
-  
- -geopandas
- 
- -numpy
-  
-  -seaborn
-  
-  -panda
-  
-  -tensorflow
-  
-  -scipie
-  
-  -matplotlib
-  
-  -keras
-  
-  -scikit-learn
-  
-  -scrapy3
-  
-  -opencv-python
-  
-  -openpyxl
-  
-  -Theano
-  
-  -beautifulsoup4
-  
-  -Pee Wee
+Python has the libraries pre-installed:
 
-  -Pillow
+- geopandas
+- numpy
+- seaborn
+- pandas
+- tensorflow
+- scipy
+- matplotlib
+- keras
+- scikit-learn
+- scrapy3
+- opencv-python
+- openpyxl
+- Theano
+- beautifulsoup4
+- peewee
+- Pillow
 
 Julia includes the IJulia kernel pre-installed for running Julia notebooks.
 
-The pipa admin user is active and you have to create the key in sign up after login again to be able to access with the key created within the jupyterhub you can manage new users and give them access
+An admin user named `pipa` is configured by default. After registering this user and generating an API token you can manage new users from the JupyterHub interface.
 
 ## Running JupyterHub with Docker Compose
 
